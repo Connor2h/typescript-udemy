@@ -1,9 +1,6 @@
-// const person: {
-//   name: string;
-//   age: number;
-// } = {
-var person = {
-    name: 'Maximilian',
-    age: 30
+
+const person = {
+    "first name": 'Connor',
+    age: Math.floor(Math.random() * 3)
 };
-console.log(person.name);
+console.log(person.age);
